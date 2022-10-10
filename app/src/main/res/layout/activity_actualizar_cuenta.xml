@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".actualizarCuenta">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="100dp">
+
+        <EditText
+
+            android:id="@+id/etnumerocuenta"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Número de cuenta"
+            android:fontFamily="cursive"
+            android:inputType="textPersonName"
+            />
+        <Button
+            android:id="@+id/btnbuscar"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#7E46E3"
+            android:text="Buscar"
+            android:fontFamily="cursive"
+            android:textAllCaps="false"
+            android:layout_marginStart="20dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvbalancecuenta"
+            android:layout_marginTop="10dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Balance de Cuenta"
+            android:fontFamily="cursive"
+            android:textColor="#7E46E3"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Actualizar Saldo"
+            android:fontFamily="cursive"
+            android:layout_gravity="center"
+            android:textColor="#7E46E3"
+
+
+            />
+
+        <EditText
+            android:id="@+id/etactualizar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="cursive"
+            android:inputType="textPersonName" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_width="150dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#7E46E3"
+        android:text="Actualizar"
+        android:fontFamily="cursive"
+        android:textAllCaps="false"
+        android:layout_marginStart="20dp"
+        />
+
+</LinearLayout>

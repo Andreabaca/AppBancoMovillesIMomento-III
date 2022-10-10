@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#fff"
+
+    >
+    <ImageView
+        android:layout_marginTop="80dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_baseline_person_pin_24"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inicio de Sesión"
+        android:gravity="center"
+        android:backgroundTint="#A57CED"
+        android:fontFamily="cursive"
+        />
+    <EditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/etemail"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Correo Electrónico"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:inputType="textEmailAddress"
+        android:fontFamily="cursive"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/etpassword"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Contraseña"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:inputType="textPassword"
+        android:fontFamily="cursive"
+        />
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/btnstartsesion"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Iniciar Sesión"
+            android:textAllCaps="false"
+            android:backgroundTint="#A57CED"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/tvregister"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Registrarse AQUÍ"
+            android:textColor="#A57CED"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

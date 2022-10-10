@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ECE4E4"
+    tools:context=".cuenta">
+
+    <TextView
+        android:id="@+id/tvusuarioc"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#7E46E3"
+        android:text="Bienvenido"
+        android:fontFamily="cursive"
+        tools:ignore="MissingConstraints"
+        />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Menu Administrador"
+            android:fontFamily="cursive"
+            android:textColor="#7E46E3"
+            tools:ignore="MissingConstraints"
+            />
+
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/btncrear"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="Crear Cuenta"
+            android:fontFamily="cursive"
+            android:textColor="#fff"
+            android:layout_marginLeft="150dp"
+            android:textAllCaps="false"
+            android:backgroundTint="#7E46E3"
+            />
+        <Button
+            android:layout_marginStart="200dp"
+            android:id="@+id/btnbuscar"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="100dp"
+            android:text="Buscar Cuenta"
+            android:fontFamily="cursive"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:backgroundTint="#7E46E3"
+            />
+
+
+
+        <Button
+            android:id="@+id/btnactualizar"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="150dp"
+            android:backgroundTint="#7E46E3"
+            android:text="Actualizar Datos"
+            android:fontFamily="cursive"
+            android:textAllCaps="false"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_marginStart="200dp"
+            android:id="@+id/btneliminar"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="200dp"
+            android:backgroundTint="#7E46E3"
+            android:text="Eliminar Cuenta"
+            android:fontFamily="cursive"
+            android:textAllCaps="false"
+            android:textColor="#fff" />
+
+
+
+
+</LinearLayout>

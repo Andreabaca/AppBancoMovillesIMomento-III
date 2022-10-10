@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".buscarCuenta">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="100dp">
+
+        <EditText
+            android:id="@+id/etnumerocuenta"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Número de cuenta"
+            android:fontFamily="cursive"
+            android:inputType="textPersonName"
+            />
+        <Button
+            android:id="@+id/btnbuscar"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#7E46E3"
+            android:text="Buscar"
+            android:fontFamily="cursive"
+            android:textAllCaps="false"
+            android:layout_marginStart="20dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvemail"
+            android:layout_marginTop="10dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Email"
+            android:fontFamily="cursive"
+            android:textColor="#7E46E3"
+            />
+        <TextView
+            android:id="@+id/tvfecha"
+            android:layout_marginTop="10dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Fecha"
+            android:fontFamily="cursive"
+            android:textColor="#7E46E3"
+            />
+        <TextView
+            android:id="@+id/tvbalancecuenta"
+            android:layout_marginTop="10dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Saldo de Cuenta"
+            android:fontFamily="cursive"
+            android:textColor="#7E46E3"
+            />
+    </LinearLayout>
+
+</LinearLayout>
